@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    @import url(https://fonts:googleapis.com/css2?family=poppins:wght@300,400,500,600,700,800,900&display=swap);
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    border: none;
+     outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins' sans-serif;
+}
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main--color: #0ef;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+span{
+    color: var(--main--color);
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main--color);
+    margin-top: 9px;
+    font-size: 1.6rem;
+    color: var(--main--color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    
+}
+.btn:hover{
+    box-shadow: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .5s ease;
+}
+.navbar a:hover{
+    box-shadow: 0 0 -.6rem var(--second-bg-color);
+    box-shadow: 0 0 .5rem var(--main--color);
+}
+    
+.active:hover{
+    box-shadow: 0 0 1rem var(--main--color);;
+}
+html{
+    font-size: 62.5%;
+}
+    
+.services h2{
+    margin-bottom: 5rem;
+}
+body{
+    background: var(--bg-color);
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .services-box{
+    flex: 1 1 3rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+    color: var(--text-color);
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.services-container .services-box:hover{
+    border-color: var(--main--color);
+    transform: scale(1.02);
+}
+.services-box i{
+    font-size: 7rem;
+    color: var(--main--color)
+}
+.services-box h3{
+    font-size: 3.6rem;
+}
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+.active:hover{
+box-shadow: 0 0 3rem var(--main--color);;
+}
+.active{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+</style>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.html" class="active">Back</a>
+        </nav>
+    </header>
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web<br>Designer</h3>
+                <p>Providing the best Web-Designer Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire<span> Me</span></a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-time-five'></i>
+                <h3>Web Maintenance</h3>
+                <p>Providing the best Web-Maintenance Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire <span>Me</span></a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-upwork' ></i>
+                <h3>Website Development</h3>
+                <p>Providing the best Development Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire <span>Me</span></a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>CSS For Web Styling</h3>
+                <p>Providing the best CSS-For-Web-Styling Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire<span> Me</span></a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>English <br>Translator</h3>
+                <p>Providing the best Translator Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire<span> Me</span></a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Copy <br>Writing</h3>
+                <p>Providing the best Copy-Writing Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire<span> Me</span></a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Websites Content Writer</h3>
+                <p>Providing the best Website-Content-Writer Service to our clients in all our the world.<br><br> Want to <span>hire?</span></p>
+                <a href="mailto:nawab6388519@gmail.com" class="btn">Hire<span> Me</span></a>
+            </div>
+         </div>
+   </section>
+</body>
+</html>
+</body>
+</html>

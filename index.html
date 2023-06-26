@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- box icon -->>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+    <!-- header design -->
+    <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about" >About</a>
+    <a href="#services" >Services</a>
+    <a href="#contact" >Contact</a>
+    </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+    <div class="home-content" >
+    <h3>Hello, It's Me</h3>
+    <h1><span>Muhammad Saad Ansari</span></h1>
+    <div class="containe">
+    <span class="text first-text">I am a </span><span class="text sec-text">Web-Developer</span></div>
+    <p>Want to hire the best Web-Developer for your Web Project? 
+    Look no further when I am here. Don't waste your time and much money I am here to providing the 100% accuarcy
+    services in low cost.</p>
+    <h3 class="want">Want To Know About <span>Me?</span></h3>
+    <a href="CVofSaad.zip" download class="btn">Download CV
+    </a><br>
+    <div class="social-media">
+    <a href="https://www.facebook.com/muhammadsaadansari01/"><i class='bx bxl-facebook' ></i></a>
+    <a href="mailto:nawab6388519@gmail.com"><i class='bx bx-envelope'></i></a>
+    <a href="https://muhammadsaad.strikingly.com"><i class='bx bxl-google' ></i></a>
+    <a href="https://linkedin.com/in/saad-ansari-9a363026a"><i class='bx bxl-linkedin' ></i></a>
+    </div>
+
+    </div>
+    <div class="home-img">
+    <img src="avatar/avatar2.png" alt="">
+    </div>
+    </section>
+    <!-- About Section Design -->
+    <section class="about" id="about">
+    <div class="about-img">
+    <img src="avatar/avatar1.png" alt="">
+    </div>
+    <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <p>Are you looking for a web developer who can help bring your ideas to life? Look no further than Saad Ansari.
+    I am an expert at creating websites that are both visually appealing and functional. I also offers competitive 
+    rates as a freelancer so you don't have to break the bank when hiring me.
+    So if you're ready to take your business online, contact Saad today!</p>
+    <a href="mailto:nawab6388519@gmail.com" class="btn">Contact Now</a>
+    </div>
+    </section>
+    <!-- service section design -->
+    <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+    <div class="services-box">
+    <i class='bx bx-code-alt' ></i>
+    <h3>Web-Development</h3>
+    <p>Providing the best Web-Development services to our clients in all our the world.
+    <br><br> Want to <span>hire?</span></p>
+    <a href="mailto:nawab6388519@gmail.com" class="btn">Hire<span> Me</span></a>
+    </div>
+    <div class="services-box">
+    <i class='bx bx-time-five'></i>
+    <h3>Digital-Marketing</h3>
+    <p>Providing the best Digital-Marketing services to our clients in all our the world.
+    <br><br> Want to <span>hire?</span></p>
+    <a href="mailto:nawab6388519@gmail.com" class="btn">Hire <span>Me</span></a>
+    </div>
+    <div class="services-box">
+    <i class='bx bxl-upwork' ></i>
+    <h3>Freelance services</h3>
+    <p>Providing the best Freelancing services to our clients in all our the world.
+    <br><br> Want to <span>hire?</span></p>
+    <a href="mailto:nawab6388519@gmail.com" class="btn">Hire <span>Me</span></a>
+    </div>
+    </div>
+    <a href="service.html" class="bton">Read More</a>
+    </section>
+    <!-- Contact Design Section -->
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="php/mail.php" method="post">
+    <div class="input-box" id="">
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email Address">
+    </div>
+    <div class="input-box" id="">
+    <input type="text" placeholder="In Which Service Intrested">
+    <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="textarea" id="Contact" cols="30" rows="10" placeholder="Your Message">
+    </textarea>
+    <input type="submit" value="Send Message" class="btnn"> 
+    </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+    <div class="footer-text">
+    <p>Craeted by &copy; 
+    <a href="https://saadansari2.strikingly.com" class="ax">Muhammad Saad Ansari</a></p>
+    </div>
+    <div class="footer-iconTop">
+    <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+    </footer>
+    <!-- animation script-->
+    <script>
+        const text = document.querySelector(".sec-text");
+
+        const textLoad = () => {
+        setTimeout(()   => {
+        text.textContent = "Web-Developer";
+        }, 0);
+        setTimeout(()   => {
+        text.textContent = "Freelancer";
+        }, 4000);
+        setTimeout(()   => {
+        text.textContent = "Digital-Marketer";
+        }, 8000);
+        setTimeout(()   => {
+        text.textContent = "Web-Developer";
+        }, 12000);
+        setTimeout(()   => {
+        text.textContent = "Freelancer";
+        }, 16000);
+        setTimeout(()   => {
+        text.textContent = "Digital-Marketer";
+        }, 20000);
+        setTimeout(()   => {
+        text.textContent = "Web-Developer";
+        }, 24000);
+        setTimeout(()   => {
+        text.textContent = "Freelancer";
+        }, 28000);
+        setTimeout(()   => {
+        text.textContent = "Digital-Marketer";
+        }, 32000);
+        
+    }
+        textLoad();
+    </script>
+    </body>
+    </html>
